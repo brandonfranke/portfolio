@@ -8,10 +8,7 @@ import Icon from '../../utils/icon.util'
 
 import css from '../../../styles/sections/articles/recent.module.scss'
 
-export default function Recent({ mediumArticles }) {
-
-	const feed 		= mediumArticles.feed
-	const articles 	= mediumArticles.items
+export default function Recent({ devToArticles }) {
 
 	return (
 		<Section classProp="borderBottom">
@@ -23,26 +20,27 @@ export default function Recent({ mediumArticles }) {
 				/>
 				<section className={css.projects}>
 					{
-					articles.map( ({ title, pubDate, link, author, thumbnail, categories }, index) => {
-						const date = new Date(pubDate).toDateString()
+					devToArticles.map(({ title, readable_publish_date, url, user, cover_image, tag_list }, index) => {
 						return (
 							<>
 							<article key={index} className={css.project}>
 								<span className={css.featuredImage}>
-									<img src={thumbnail} alt="Article thumbnail" />
+									{cover_image &&
+										<img src={cover_image} alt="Article thumbnail" />
+									}
 								</span>
 								<span className={css.header}>
-									<a href={link} rel="noreferrer" target="_blank">{title} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
+									<a href={url} rel="noreferrer" target="_blank">{title} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
 								</span>
 								<span className={css.descriptionContainer}>
 								</span>
 								<span className={css.details}>
-									<p>By {author}</p>
-									<p className={css.pushedAt}>{date}</p>
+									<p>By {user.name}</p>
+									<p className={css.pushedAt}>{readable_publish_date}</p>
 								</span>
 								<span className={css.topicsContainer}>
 									{
-									categories.map( (e, index) => {
+									tag_list.map( (e, index) => {
 										return ( <span key={index} className={css.topics}><Icon icon={[ 'fab', 'medium' ]} /> {e}</span> )
 									})
 									}

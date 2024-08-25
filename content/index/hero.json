@@ -1,6 +1,6 @@
 {
 	"intro": {
-		"start": "const Andrew = ( name, passion ) =>",
+		"start": "const Brandon = ( name, passion ) =>",
 		"end": "Hello, my name is",
 		"speed": 60,
 		"deletionSpeed": 80,
@@ -11,21 +11,21 @@
 	},
 
 	"header": {
-		"name": "Andrew Nelson.",
-		"usp": "I design and build meaningful experiences."
+		"name": "Brandon Franke.",
+		"usp": "I build innovative tools for real impact."
 	},
 
-	"paragraph": "I am a digital polymath — a constantly evolving digital creator driven by a passion for lifelong learning and the desire to leave a lasting impact.",
+	"paragraph": "I am a passionate web developer who thrives on creating innovative web solutions and continuously expanding my skill set. I love diving into new technologies and tackling complex challenges, always eager to learn and grow.",
 
 	"buttons": {
 		"primary": {
 			"title": "Contact Me",
-			"url": "",
+			"url": "mailto:branfranke@gmail.com",
 			"leaveSite": false
 		},
 		"secondary": {
 			"title": "LinkedIn",
-			"url": "",
+			"url": "https://www.linkedin.com/in/brandon-franke/",
 			"leaveSite": "true"
 		}
 	}

@@ -26,20 +26,19 @@ export default function Career() {
 				<SectionTitle
 					title="Experience"
 					preTitle="Career"
-					subTitle="I am current managing, designing, and developing all consumer and digital product initiatives at My Supply Co."
+					subTitle="I am currently a Software Engineer at Microsoft building apps that streamline processes and enhance customer efficiency, enabling businesses to operate more effectively. "
 				/>
 				<section className={career.area}>
 					<article className={career.company}>
 						<div className={career.companyContent}>
 							<span className={career.companyHeader}>
-								<h3>My Supply Co.</h3>
+								<h3>Microsoft</h3>
 								<h4>Permanent Full-time</h4>
-								<h4>Apr 2019 - Present · 3 yrs 10 mos</h4>
+								<h4>July 2024 - Present</h4>
 								<h5>Vancouver, British Columbia, Canada</h5>
 							</span>
 							<p>
-							My Supply Co. helps Canadians manage mental and physical health with naturally occurring nootropic and adaptogenic products. They carry products with complex attributes, aiming to solve a large variety of personal care needs — this requires an extremely customized and evolving approach to how the store is built and functions.
-							</p>
+							Microsoft Dynamics 365 Resource Scheduling is a robust solution designed to optimize the allocation and management of resources across various projects and services. By leveraging advanced scheduling algorithms and real-time data, it enables businesses to efficiently assign the right resources to the right tasks, ensuring maximum productivity and customer satisfaction.</p>
 						</div>
 						<div className={career.companyAlt}></div>
 					</article>
@@ -47,110 +46,85 @@ export default function Career() {
 					<article className={career.companyPositions}>
 						<div className={career.position}>
 							<div className={career.positionContent}>
-								<span class={career.positionHeader}>
-									<h3>Director of Product Design and Development</h3>
-									<h4>Nov 2021 - Present · 1 yrs 3 mos</h4>
+								<span className={career.positionHeader}>
+									<h3>Software Engineer II</h3>
+									<h4>July 2024 - Present</h4>
 								</span>
 								<p>
-								I am responsible for the ideation, planning, and development of new consumer goods—and customer and employee facing microservice software. During these projects I work with key stakeholders within our company and supplychain to ensure and meet quality goals across multiple domains.
-								</p>
+								I specialize in building apps within Microsoft Dynamics 365 Resource Scheduling to optimize and streamline resource allocation for various projects and services. Using advanced scheduling algorithms and real-time data integration, I create solutions that ensure the right resources are assigned to the right tasks, enhancing productivity and customer satisfaction.</p>
 							</div>
 							<div className={career.positionAlt}></div>
-						</div>
-
-						<div className={career.position}>
-							<div className={career.positionContent}>
-								<span class={career.positionHeader}>
-									<h3>Full Stack Developer & User Experience Designer</h3>
-									<h4>Feb 2020 - Nov 2021 · 1 yrs 10 mos</h4>
-								</span>
-								<p>
-								As the lead full stack developer I am responsible for all software development, CI/CD, and QA. This is for the front end, APIs, and the back end. Additionally I was tasked with identifying and analyzing weak points in the customer journey and employee workflows. Each project had to be estimated and prioritized based on its workload and immediate impact to efficiency or revenue. Some of these projects have been so successful internally that we have planned refactoring for commercialization. 
-								</p>
-								<p>
-								Some key projects complete during this time 👇
-								</p>
-								<ul className={career.list}>
-									<li>
-										Product attribute and settings automated testing
-										<span className={career.subList}><span className={career.bullet}></span>Eradicated critical data input errors</span>
-									</li>
-									<li>
-										Inventory management reporting and automation 
-										<span className={career.subList}><span className={career.bullet}></span>Decreased purchasing labour by ~80%</span>
-									</li>
-									<li>
-										Sales management plugin with AJAX shopping cart integration
-										<span className={career.subList}><span className={career.bullet}></span>Increased AOV by 8.3%</span>
-									</li>
-									<li>
-										Bespoke ID verification software and WooCommerce integration
-										<span className={career.subList}><span className={career.bullet}></span>Decreased Credit Card fraud by 98%</span>
-									</li>
-								</ul>
-								<Badges list={fullStack} block="stack" fullContainer="fullContainer"/>
-							</div>
-							<div className={career.positionAlt}></div>
-						</div>
-					
-						<div className={career.position}>
-							<div className={career.positionContent}>
-									<span class={career.positionHeader}>
-										<h3>Front End Developer & User Interface Designer</h3>
-										<h4>Apr 2019 - Feb 2020 · 11 mos</h4>
-									</span>
-								<p>
-									I was brought on to help fill multiple creative rolls in a small start-up environment. Working with the marketing team to create the brand and logos — designing and developing a new front end for the website — and improving the users experience and store KPIs through design and merchandising optimizations.
-								</p>
-								<p>
-									Some key projects completed during this time 👇
-								</p>
-								<ul className={career.list}>
-									<li>
-										Full functionality interactive shopping cart to replace cart page
-										<span className={career.subList}><span className={career.bullet}></span>Increased conversions by 0.7%</span>
-									</li>
-									<li>Complex multi-state animated menus represented in an elegant UI 
-										<span className={career.subList}><span className={career.bullet}></span>Strong brand confidence booster with state of the art menu</span>
-									</li>
-									<li>
-										Design and development of the site and merchandising strategy optimized for market
-										<span className={career.subList}><span className={career.bullet}></span>7.1% overall conversion rate </span>
-									</li>
-								</ul>
-								<Badges list={stack} block="stack" fullContainer="fullContainer"/>
-							</div>
-							<div className={career.positionAlt}></div>
+							<Badges list={microsoft} block="stack" fullContainer="fullContainer"/>
 						</div>
 					</article>
 
 					<article className={career.company}>
 						<div className={career.companyContent}>
 							<span className={career.companyHeader}>
-								<h3>Another Creative Ltd.</h3>
-								<h4>Contract Part-time</h4>
-								<h4>Jun 2016 - Present · 6 yrs 8 mos</h4>
-								<h5>Vancouver, British Columbia, Canada</h5>
+								<h3>Hitachi Solutions</h3>
+								<h4>Permanent Full-time</h4>
+								<h4>September 2022 - July 2024</h4>
+								<h5>Toronto, Ontario, Canada</h5>
 							</span>
 							<p>
-							Another Creative is a full stack agency that helps deliver exceptional digital experiences to small and medium businesses. Branding, Marketing, and Web/Software Development.
-							</p>
+							Hitachi Solutions is a leading provider of consulting services, specializing in offering expert advice, design, and development of applications within the Microsoft Business Apps ecosystem. With deep expertise in Microsoft Dynamics 365, Power Platform, and Azure, Hitachi Solutions helps organizations leverage the full potential of Microsoft's powerful tools to drive digital transformation and achieve business objectives. By delivering customized solutions tailored to specific business needs, Hitachi Solutions ensures enhanced productivity, operational efficiency, and sustained growth for their clients.</p>
 						</div>
 						<div className={career.companyAlt}></div>
+					</article>
+
+					<article className={career.companyPositions}>
+						<div className={career.position}>
+							<div className={career.positionContent}>
+								<span className={career.positionHeader}>
+									<h3>Senior Developer</h3>
+									<h4>June 2023 - July 2024</h4>
+								</span>
+								<p>
+								I design and develop custom user interfaces within the Microsoft Business Apps ecosystem. My role involves leveraging my expertise in Microsoft Dynamics 365, Power Platform, and Azure to create intuitive and effective applications. By tailoring each solution to meet specific business needs, I help clients enhance their productivity, operational efficiency, and achieve their digital transformation goals.</p>
+							</div>
+							<div className={career.positionAlt}></div>
+							<Badges list={hitachi} block="stack" fullContainer="fullContainer"/>
+						</div>
+						<div className={career.position}>
+							<div className={career.positionContent}>
+								<span className={career.positionHeader}>
+									<h3>Senior Consultant</h3>
+									<h4>September 2022 - June 2023</h4>
+								</span>
+								<p>
+								I specialize in building model-driven apps within the Microsoft Power Platform. My role involves leveraging my expertise in Power Apps and Dynamics 365 to design and develop applications that align closely with business requirements. By focusing on model-driven app development, I help clients optimize processes, improve data management, and enhance operational efficiency, ultimately supporting their digital transformation journey.</p>
+							</div>
+							<div className={career.positionAlt}></div>
+						</div>
 					</article>
 
 					<article className={career.company}>
 						<div className={career.companyContent}>
 							<span className={career.companyHeader}>
-								<h3>West Coast Electronics</h3>
+								<h3>Endeavour Solutions</h3>
 								<h4>Permanent Full-time</h4>
-								<h4>Jan 2006 - Nov 2011 · 5 yrs 11 mos</h4>
-								<h5>Vancouver, British Columbia, Canada</h5>
+								<h4>July 2020 - September 2022</h4>
+								<h5>Halifax, Nova Scotia, Canada</h5>
 							</span>
-							<p>I was the Electronics Wizard 🧙‍♂️</p>
-							<p>West Coast Electronics was a repair shop that fixed computers, consoles, and cell phones.</p>
+							<p>
+							Endeavour Solutions is a distinguished Microsoft Gold partner renowned for delivering cutting-edge Dynamics 365 solutions to empower businesses across diverse sectors. Specializing in Dynamics 365 Customer Engagement, Finance & Operations, and the Power Platform, Endeavour Solutions excels in transforming organizational processes and enhancing efficiency through tailored technology solutions. With a commitment to understanding and meeting client needs, we provide expert consultation, seamless implementation, and ongoing support to ensure our clients achieve their digital transformation goals effectively and sustainably.</p>
 						</div>
 						<div className={career.companyAlt}></div>
+					</article>
+
+					<article className={career.companyPositions}>
+						<div className={career.position}>
+							<div className={career.positionContent}>
+								<span className={career.positionHeader}>
+									<h3>D365 & Power Platform Consultant</h3>
+									<h4>July 2020 - September 2022</h4>
+								</span>
+								<p>
+								I specialize in building model-driven apps within the Microsoft Power Platform, focusing on creating tailored solutions that optimize business processes and improve operational efficiency. Working closely with clients, I ensure that each app meets their specific needs and supports their strategic goals for digital transformation. This involves leveraging Power Apps and Dynamics 365 to deliver intuitive and effective applications that enhance productivity and drive organizational success.</p>
+							</div>
+							<div className={career.positionAlt}></div>
+							<Badges list={endeavour} block="stack" fullContainer="fullContainer"/>
+						</div>
 					</article>
 				</section>
 			</Container>
@@ -158,34 +132,33 @@ export default function Career() {
 	)
 }
 
-const fullStack	= [
+const microsoft	= [
 	{ key: 'javascript', 	name: 'JavaScript', 		type: 'devicon' },
 	{ key: 'nodejs', 		name: 'NodeJS', 			type: 'devicon' },
 	{ key: 'react', 		name: 'React', 				type: 'devicon' },
-	{ key: 'nextjs', 		name: 'NextJS', 			type: 'devicon' },
-	{ key: 'php', 			name: 'PHP', 				type: 'devicon' },
-	{ key: 'wordpress', 	name: 'WordPress', 			type: 'devicon' },
-	{ key: 'woocommerce', 	name: 'WooCommerce', 		type: 'devicon' },
 	{ key: 'html5', 		name: 'HTML5', 				type: 'devicon' },
 	{ key: 'css3', 			name: 'CSS3', 				type: 'devicon' },
-	{ key: 'sass', 			name: 'SASS', 				type: 'devicon' },
 	{ key: 'git', 			name: 'Git', 				type: 'devicon' },
 	{ key: 'mysql', 		name: 'MySQL', 				type: 'devicon' },
-	{ key: 'mongodb', 		name: 'MongoDB', 			type: 'devicon' },
+	{ key: 'csharp', 		name: 'C#', 				type: 'devicon' },
 ]
 
-const stack	= [
+const hitachi = [
 	{ key: 'javascript', 	name: 'JavaScript', 		type: 'devicon' },
 	{ key: 'nodejs', 		name: 'NodeJS', 			type: 'devicon' },
 	{ key: 'react', 		name: 'React', 				type: 'devicon' },
-	{ key: 'nextjs', 		name: 'NextJS', 			type: 'devicon' },
-	{ key: 'php', 			name: 'PHP', 				type: 'devicon' },
-	{ key: 'wordpress', 	name: 'WordPress', 			type: 'devicon' },
-	{ key: 'woocommerce', 	name: 'WooCommerce', 		type: 'devicon' },
 	{ key: 'html5', 		name: 'HTML5', 				type: 'devicon' },
 	{ key: 'css3', 			name: 'CSS3', 				type: 'devicon' },
-	{ key: 'sass', 			name: 'SASS', 				type: 'devicon' },
 	{ key: 'git', 			name: 'Git', 				type: 'devicon' },
 	{ key: 'mysql', 		name: 'MySQL', 				type: 'devicon' },
-	{ key: 'mongodb', 		name: 'MongoDB', 			type: 'devicon' },
+]
+
+const endeavour = [
+	{ key: 'javascript', 	name: 'JavaScript', 		type: 'devicon' },
+	{ key: 'nodejs', 		name: 'NodeJS', 			type: 'devicon' },
+	{ key: 'react', 		name: 'React', 				type: 'devicon' },
+	{ key: 'html5', 		name: 'HTML5', 				type: 'devicon' },
+	{ key: 'css3', 			name: 'CSS3', 				type: 'devicon' },
+	{ key: 'git', 			name: 'Git', 				type: 'devicon' },
+	{ key: 'mysql', 		name: 'MySQL', 				type: 'devicon' },
 ]

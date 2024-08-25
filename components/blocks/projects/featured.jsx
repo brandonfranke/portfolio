@@ -34,7 +34,9 @@ export default function FeaturedProject({ content }, index) {
 			variants={container}
 			initial={[ "rest", "hidden" ]}
 			whileHover="hover"
-			animate={controls} >
+			animate={controls} 
+			onClick={() => window.open(url, "_blank")}
+			>
 			
 			<div className={css.details}>
 				<div className={css.projectHeader}>

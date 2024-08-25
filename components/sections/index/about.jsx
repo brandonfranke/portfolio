@@ -57,8 +57,8 @@ export default function About() {
 }
 
 const methods 	= [
-	{ key: 'clock', 		    name: 'Time Management',    type: 'fad' },
-	{ key: 'people-group', 	    name: 'Collaboration', 	    type: 'fad' },
-	{ key: 'lightbulb', 		name: 'Creativity', 	    type: 'fad' },
+	{ key: 'clock', 		    name: 'Time Management',    type: 'far' },
+	{ key: 'people-group', 	    name: 'Collaboration', 	    type: 'fas' },
+	{ key: 'lightbulb', 		name: 'Creativity', 	    type: 'far' },
 	{ key: 'comments', 			name: 'Communication', 	    type: 'far' }
 ]

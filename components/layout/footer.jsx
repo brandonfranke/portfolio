@@ -38,7 +38,7 @@ export default function Footer() {
 						content.acknowledgments.map( ({ person, link, note }, index) => {
 							return (
 								<li key={index}>
-									<a href={link} rel="noreferrer" target="_blank">{person} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
+									<a href={link} rel="noreferrer" target="_blank">{person} <Icon icon={[ 'far', 'arrow-up-right-from-square' ]} /></a>
 									<p>{note}</p>
 								</li>
 							)
@@ -51,7 +51,7 @@ export default function Footer() {
 						content.links.map( ({ person, link, note }, index) => {
 							return (
 								<li key={index}>
-									<a href={link} rel="noreferrer" target="_blank">{person} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
+									<a href={link} rel="noreferrer" target="_blank">{person} <Icon icon={[ 'far', 'arrow-up-right-from-square' ]} /></a>
 									<p>{note}</p>
 								</li>
 							)
@@ -76,10 +76,10 @@ export default function Footer() {
 						<h5>{settings.portfolio.forkthis}</h5>
 						<ul>
 							<li>
-								<p><Icon icon={[ 'fad', 'code-branch' ]} /> Forks: { gitHubInfo.forks }</p>
+								<p><Icon icon={[ 'far', 'code-branch' ]} /> Forks: { gitHubInfo.forks }</p>
 							</li>
 							<li>
-								<p><Icon icon={[ 'fad', 'star' ]} /> Stars: { gitHubInfo.stars }</p>
+								<p><Icon icon={[ 'far', 'star' ]} /> Stars: { gitHubInfo.stars }</p>
 							</li>
 						</ul>
 					</a>

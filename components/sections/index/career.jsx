@@ -67,7 +67,7 @@ export default function Career() {
 								<h5>Toronto, Ontario, Canada</h5>
 							</span>
 							<p>
-							Hitachi Solutions is a leading provider of consulting services, specializing in offering expert advice, design, and development of applications within the Microsoft Business Apps ecosystem. With deep expertise in Microsoft Dynamics 365, Power Platform, and Azure, Hitachi Solutions helps organizations leverage the full potential of Microsoft's powerful tools to drive digital transformation and achieve business objectives. By delivering customized solutions tailored to specific business needs, Hitachi Solutions ensures enhanced productivity, operational efficiency, and sustained growth for their clients.</p>
+							Hitachi Solutions is a leading provider of consulting services, specializing in offering expert advice, design, and development of applications within the Microsoft Business Apps ecosystem. With deep expertise in Microsoft Dynamics 365, Power Platform, and Azure, Hitachi Solutions helps organizations leverage the full potential of Microsoft&apos;s powerful tools to drive digital transformation and achieve business objectives. By delivering customized solutions tailored to specific business needs, Hitachi Solutions ensures enhanced productivity, operational efficiency, and sustained growth for their clients.</p>
 						</div>
 						<div className={career.companyAlt}></div>
 					</article>
